@@ -22,7 +22,8 @@ const Home = () => {
         <>
           <div className="flex justify-between items-center">
             <h1 className="ml-[20rem] mt-[10rem] text-[3rem]">
-              Special Products
+              Welcome to Quick Shopping Hub
+              Find the Best Deals on Premium Products
             </h1>
 
             <Link
@@ -32,6 +33,26 @@ const Home = () => {
               Shop
             </Link>
           </div>
+
+           <div className="flex justify-center gap-6 flex-wrap mt-[4rem]">
+
+    <div className="border p-6 rounded-lg shadow-lg text-center w-64">
+        <h2 className="font-bold text-xl">Free Delivery</h2>
+        <p>Free shipping on all orders.</p>
+    </div>
+
+    <div className="border p-6 rounded-lg shadow-lg text-center w-64">
+        <h2 className="font-bold text-xl">Secure Payment</h2>
+        <p>100% secure payment guarantee.</p>
+    </div>
+
+    <div className="border p-6 rounded-lg shadow-lg text-center w-64">
+        <h2 className="font-bold text-xl">24/7 Support</h2>
+        <p>Customer support available anytime.</p>
+    </div>
+
+</div>
+          
 
           <div>
             <div className="flex justify-center flex-wrap mt-[2rem]">
