@@ -28,6 +28,15 @@ const productSchema = mongoose.Schema(
     numReviews: { type: Number, required: true, default: 0 },
     price: { type: Number, required: true, default: 0 },
     countInStock: { type: Number, required: true, default: 0 },
+    discountPercentage: {
+  type: Number,
+  default: 0,
+},
+
+deliveryTime: {
+  type: String,
+  default: "2-3 Days",
+},
   },
   { timestamps: true }
 );
