@@ -115,6 +115,15 @@ const ProductDetails = () => {
                     <FaStar className="mr-2 text-white" /> Reviews:{" "}
                     {product.numReviews}
                   </h1>
+                  <h1 className="flex items-center mb-6">
+                  <FaBox className="mr-2 text-white" />
+                   Discount: {product.discountPercentage}%
+                  </h1>
+
+                  <h1 className="flex items-center mb-6">
+                  <FaClock className="mr-2 text-white" />
+                   Delivery: {product.deliveryTime}
+                   </h1>
                 </div>
 
                 <div className="two">
